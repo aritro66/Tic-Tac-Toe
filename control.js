@@ -29,7 +29,7 @@ setInterval(() => {
             box_3.style.backgroundColor = 'red';
             document.getElementById('score').innerHTML='Computer is winner!!';
         }
-        if (arr[1][0] == 1 && arr[1][1] == 1 && arr[1][2] == 1) {
+        else if (arr[1][0] == 1 && arr[1][1] == 1 && arr[1][2] == 1) {
             play = 0;
             box_4.style.backgroundColor = '#66f75c';
             box_5.style.backgroundColor = '#66f75c';
@@ -43,7 +43,7 @@ setInterval(() => {
             box_6.style.backgroundColor = 'red';
             document.getElementById('score').innerHTML='Computer is winner!!';
         }
-        if (arr[2][0] == 1 && arr[2][1] == 1 && arr[2][2] == 1) {
+        else if (arr[2][0] == 1 && arr[2][1] == 1 && arr[2][2] == 1) {
             play = 0;
             box_7.style.backgroundColor = '#66f75c';
             box_8.style.backgroundColor = '#66f75c';
@@ -57,7 +57,7 @@ setInterval(() => {
             box_9.style.backgroundColor = 'red';
             document.getElementById('score').innerHTML='Computer is winner!!';
         }
-        if (arr[0][0] == 1 && arr[1][0] == 1 && arr[2][0] == 1) {
+        else if (arr[0][0] == 1 && arr[1][0] == 1 && arr[2][0] == 1) {
             play = 0;
             box_1.style.backgroundColor = '#66f75c';
             box_4.style.backgroundColor = '#66f75c';
@@ -71,7 +71,7 @@ setInterval(() => {
             box_7.style.backgroundColor = 'red';
             document.getElementById('score').innerHTML='Computer is winner!!';
         }
-        if (arr[0][1] == 1 && arr[1][1] == 1 && arr[2][1] == 1) {
+        else if (arr[0][1] == 1 && arr[1][1] == 1 && arr[2][1] == 1) {
             play = 0;
             box_2.style.backgroundColor = '#66f75c';
             box_5.style.backgroundColor = '#66f75c';
@@ -85,7 +85,7 @@ setInterval(() => {
             box_8.style.backgroundColor = 'red';
             document.getElementById('score').innerHTML='Computer is winner!!';
         }
-        if (arr[0][2] == 1 && arr[1][2] == 1 && arr[2][2] == 1) {
+        else if (arr[0][2] == 1 && arr[1][2] == 1 && arr[2][2] == 1) {
             play = 0;
             box_3.style.backgroundColor = '#66f75c';
             box_6.style.backgroundColor = '#66f75c';
@@ -99,7 +99,7 @@ setInterval(() => {
             box_9.style.backgroundColor = 'red';
             document.getElementById('score').innerHTML='Computer is winner!!';
         }
-        if (arr[0][0] == 1 && arr[1][1] == 1 && arr[2][2] == 1) {
+        else if (arr[0][0] == 1 && arr[1][1] == 1 && arr[2][2] == 1) {
             play = 0;
             box_1.style.backgroundColor = '#66f75c';
             box_5.style.backgroundColor = '#66f75c';
@@ -113,7 +113,7 @@ setInterval(() => {
             box_9.style.backgroundColor = 'red';
             document.getElementById('score').innerHTML='Computer is winner!!';
         }
-        if (arr[0][2] == 1 && arr[1][1] == 1 && arr[2][0] == 1) {
+        else if (arr[0][2] == 1 && arr[1][1] == 1 && arr[2][0] == 1) {
             play = 0;
             box_3.style.backgroundColor = '#66f75c';
             box_5.style.backgroundColor = '#66f75c';
