@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <h1 id="heading"> TIC-TAC-TOE!!!</h1>
+    <div id="grid">
+        <button class='button' id='1'></button>
+        <button class='button' id='2'></button>
+        <button class='button' id='3'></button>
+        <button class='button' id='4'></button>
+        <button class='button' id='5'></button>
+        <button class='button' id='6'></button>
+        <button class='button' id='7'></button>
+        <button class='button' id='8'></button>
+        <button class='button' id='9'></button>
+    </div>
+    <div id="status">
+        <h1 id="score"></h1>
+        <button style="cursor:pointer;display: block;font-size: 3vmin;" id='play_chk'>Play Again</button>
+    </div>
+    <div id="rules">
+        <h2><i class="fas fa-gamepad"></i> Game Rules</h2>
+        <hr />
+        <br />
+        
+            <p>1. The game is played on a grid that's 3 squares by 3 squares.</p>
+            <p>2. You are X, your friend (or the computer in this case) is O. Players take turns putting their marks in empty squares.</p>
+            <p>3. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.</p>
+            <p>4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.</p>
+    </div>
+    <script src="control.js"></script>
+</body>
+</html>
